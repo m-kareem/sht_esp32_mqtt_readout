@@ -29,7 +29,7 @@ const char *password = "your_password";
 // ============ MQTT setting =======================================
 #define MQTT_PUBLISH_DELAY 5000 //time in ms
 #define MQTT_CLIENT_ID "esp32_multi_sht35"
-const char *MQTT_SERVER = "petra.phys.yorku.ca";
+const char *MQTT_SERVER = "mqtt_server_address";
 const int MQTT_PORT = 1883;
 const char *MQTT_USER = "mqttuser"; // NULL for no authentication
 const char *MQTT_PASSWORD = "mqttpassword"; // NULL for no authentication
