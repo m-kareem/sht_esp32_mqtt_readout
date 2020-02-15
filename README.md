@@ -4,7 +4,7 @@ This is an arduino code written for ESP32 micro-controller, which reads the humi
 
 - The code can handle both regular and enterprise wifi connections.
 
-- One the server side, a python script is listening to the mqtt channels, pars the messages and write the data to influxDB.
+- One the server side, a python script (main_v2.py) is listening to the mqtt channels, pars the messages and write the data to influxDB.
 
 There are two config files:
 - single sensor: the sensor is directly connected to the ESP32
