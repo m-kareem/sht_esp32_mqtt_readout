@@ -10,6 +10,13 @@ There are two config files:
 - single sensor: the sensor is directly connected to the ESP32
 - multi sensors: the sensors are connected through I2C multiplexor to the ESP32
 
-I have also designed two PCBs for a cleaner setup (you can contact me if you need more details on how to order low cost PCB). Files are provided.
+I have also designed two PCBs for a cleaner assembly. Files are provided in PCB folder.
+You can design your own PCBs via Fritzing software and order it for low cost via aisler.net, and get it shipped to you. They are doing really good job. 
 
-In addition, you can accomodate the module in a nice and simple 3D printed box. stp file is provided.
+In addition, you can accomodate the module in a nice and simple 3D printed box. stl file is provided.
+
+# Required hardwares:
+- EST32 microcontroller
+- seeedstudio SHT35 Temp&Humi Sensor (you can use any other compatible alternative)
+- Adafruit TCA9548A 1 to 8 I2C Multiplexer (for multi-sensor setup)
+
